@@ -37,16 +37,17 @@ export default function Navbar() {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="relative h-56 w-56">
+            <div className="relative h-14 w-40">
               <Image
                 src="/Logo.png"
-                alt="Toothpaste Herbal Logo"
+                alt="Logo"
                 fill
                 className="object-contain"
                 priority
               />
             </div>
           </Link>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex md:items-center md:space-x-8">
